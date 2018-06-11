@@ -117,7 +117,10 @@ Output:
 <h1>Start the Server</h1>
 Start the server using `node server.js` and then check in browser  `http://localhost:3000`
 
-<h2>In Progress Scenario's</h2>
-1. Offline Functionality. <br/>
-2. Front end for the robo to execute using buttons.<br/>
-3. Test Cases(Non Functional requirement).<br/>
+<h1>Offline Functionality.</h1>
+Implemented the offline functionality using cache manifest where I have defined all the list of files to be cached and then save the file as offline.manifest,later linked it to hmtl tag.
+<html manifest =”offline.manifest”>
+Go to dev tools in google incognito window, enter the positions and then click save. The Data will be stored locally rather than being posted to the server. Refresh the page and the values you entered will reappear.
+
+<h1>In Progress Scenario's</h1>
+1. Test Cases(Non Functional requirement). 
